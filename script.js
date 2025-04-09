@@ -16,7 +16,7 @@ function addBlocks() {
     container.innerHTML = "";
     links.forEach(src => {
         container.innerHTML += `
-        <section class="image-block">
+        <section class="block">
           <img src="${src}" alt="Фото">
         </section>
       `;
